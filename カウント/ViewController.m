@@ -26,6 +26,7 @@
     // Dispose of any resources that can be recreated.
 }
 -(IBAction)plus{
+    NSLog(@"ぬるぽありがとう!!");
     number=number+1;
     label.text = [NSString stringWithFormat:@"%d",number];
 }
@@ -43,7 +44,7 @@
 }
 -(IBAction)clear{
     number=0;
-    label.text
+    
 }
 
 @end
