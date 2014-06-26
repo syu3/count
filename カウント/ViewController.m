@@ -27,6 +27,11 @@
 }
 -(IBAction)plus{
     NSLog(@"ぬるぽありがとう!!");
+    if (number>10) {
+        label.textColor = [UIColor redColor];
+    }else{
+        label.textColor = [UIColor blackColor];
+    }
     number=number+1;
     label.text = [NSString stringWithFormat:@"%d",number];
 }
